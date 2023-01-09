@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Punakalu Loading!";
+		return "Hello from AppService via Appgateway!";
 	}
 }
