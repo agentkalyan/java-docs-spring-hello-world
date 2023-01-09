@@ -13,7 +13,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@RequestMapping("/optum")
+	@RequestMapping("/")
 	String sayHello() {
 		return "Punakalu Loading!";
 	}
